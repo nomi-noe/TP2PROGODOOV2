@@ -1,0 +1,14 @@
+<odoo>
+    <record id="students.training_info" model="students.training">
+        <field name="code">INFO</field>
+        <field name="name">DUT Informatique</field>
+    </record>
+    <record id="students.training_info" model="students.training">
+        <field name="code">TC</field>
+        <field name="name">DUT Techniques de commercialisation</field>
+    </record>
+    <record id="students.training_rt" model="students.training">
+        <field name="code">RT</field>
+        <field name="name">DUT Réseaux et Télécommunications</field>
+    </record>
+</odoo>

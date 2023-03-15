@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="students.mark_erp20" model="students.mark">
+        <field name="subject">ERP</field>
+        <field name="mark">20</field>
+        <field name="student_id" ref="student_gaillard"/>
+    </record>
+     <record id="students.mark_erp10" model="students.mark">
+        <field name="subject">ERP</field>
+        <field name="mark">10</field>
+        <field name="student_id" ref="student_colin"/>
+    </record>
+     <record id="students.mark_maths12" model="students.mark">
+        <field name="subject">Maths</field>
+        <field name="mark">12</field>
+        <field name="student_id" ref="student_colin"/>
+    </record>
+     <record id="students.mark_maths15" model="students.mark">
+        <field name="subject">Maths</field>
+        <field name="mark">15</field>
+        <field name="student_id" ref="student_colin"/>
+    </record>
+     <record id="students.mark_erp2" model="students.mark">
+        <field name="subject">ERP</field>
+        <field name="mark">2</field>
+        <field name="student_id" ref="student_couturier"/>
+    </record>
+</odoo>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="students_mark_view_form">
+        <field name="name">students.form</field>
+        <field name="model">students.mark</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Mark">
+                <sheet>
+                    <group>
+                        <field name="subject"/>
+                        <field name="mark"/>
+                        <field name="coefficient"/>
+                        <field name="weightedMark"/>
+                        <field name="student_id"/>
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="students_mark_view_tree">
+        <field name="name">students.tree</field>
+        <field name="model">students.mark</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Marks">
+                <field name="subject"/>
+                <field name="mark"/>
+                <field name="coefficient"/>
+                <field name="weightedMark"/>
+                <field name="student_id"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_students_mark_view">
+        <field name="name">Mark</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">students.mark</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="students_menu" name="Students"/>
+    <menuitem id="students_mark_menu" name="Mark" parent="students_menu" action="action_students_mark_view"/>
+</odoo>

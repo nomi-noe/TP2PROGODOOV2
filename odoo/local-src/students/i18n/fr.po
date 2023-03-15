@@ -1,0 +1,168 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* students
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-10 12:45+0000\n"
+"PO-Revision-Date: 2023-03-10 13:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__create_uid
+#: model:ir.model.fields,field_description:students.field_students_student__create_uid
+#: model:ir.model.fields,field_description:students.field_students_training__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__create_date
+#: model:ir.model.fields,field_description:students.field_students_student__create_date
+#: model:ir.model.fields,field_description:students.field_students_training__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__display_name
+#: model:ir.model.fields,field_description:students.field_students_student__display_name
+#: model:ir.model.fields,field_description:students.field_students_training__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__id
+#: model:ir.model.fields,field_description:students.field_students_student__id
+#: model:ir.model.fields,field_description:students.field_students_training__id
+msgid "ID"
+msgstr ""
+
+#. module: students
+#: model_terms:ir.ui.view,arch_db:students.students_training_view_form
+msgid "Information"
+msgstr "Informations"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark____last_update
+#: model:ir.model.fields,field_description:students.field_students_student____last_update
+#: model:ir.model.fields,field_description:students.field_students_training____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__write_uid
+#: model:ir.model.fields,field_description:students.field_students_student__write_uid
+#: model:ir.model.fields,field_description:students.field_students_training__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__write_date
+#: model:ir.model.fields,field_description:students.field_students_student__write_date
+#: model:ir.model.fields,field_description:students.field_students_training__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: students
+#: model:ir.actions.act_window,name:students.action_students_mark_view
+#: model:ir.ui.menu,name:students.students_mark_menu
+#: model_terms:ir.ui.view,arch_db:students.students_mark_view_form
+msgid "Mark"
+msgstr "Note"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__mark
+msgid "Mark Mark"
+msgstr "note"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_student__mark_ids
+msgid "Mark students"
+msgstr "Note étudiant"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__subject
+msgid "Mark subject"
+msgstr "Sujet Note"
+
+#. module: students
+#: model:ir.model,name:students.model_students_mark
+msgid "Mark table"
+msgstr "Table Note"
+
+#. module: students
+#: model_terms:ir.ui.view,arch_db:students.students_mark_view_tree
+msgid "Marks"
+msgstr "Note"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_mark__student_id
+#: model_terms:ir.ui.view,arch_db:students.students_student_view_form
+msgid "Student"
+msgstr "Etudiant"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_student__firstname
+msgid "Student firstname"
+msgstr "Prénom Etudiant"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_student__lastname
+msgid "Student lastname"
+msgstr "Nom Etudiant"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_student__number
+msgid "Student number"
+msgstr "Numéro Etudiant"
+
+#. module: students
+#: model:ir.model,name:students.model_students_student
+msgid "Student table"
+msgstr "Tableau Etudiant"
+
+#. module: students
+#: model:ir.actions.act_window,name:students.action_students_student_view
+#: model:ir.ui.menu,name:students.students_menu
+#: model:ir.ui.menu,name:students.students_student_menu
+#: model_terms:ir.ui.view,arch_db:students.students_student_view_tree
+#: model_terms:ir.ui.view,arch_db:students.students_training_view_form
+#: model_terms:ir.ui.view,arch_db:students.students_training_view_tree
+msgid "Students"
+msgstr "Etudiants"
+
+#. module: students
+#: model:ir.actions.act_window,name:students.action_students_training_view
+#: model:ir.model.fields,field_description:students.field_students_student__training_id
+#: model:ir.ui.menu,name:students.students_training_menu
+#: model_terms:ir.ui.view,arch_db:students.students_training_view_form
+msgid "Training"
+msgstr "Diplôme"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_training__code
+msgid "Training code"
+msgstr "Code diplôme"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_training__name
+msgid "Training name"
+msgstr "Nom diplôme"
+
+#. module: students
+#: model:ir.model.fields,field_description:students.field_students_training__student_ids
+msgid "Training students"
+msgstr "Etudiants du diplôme"
+
+#. module: students
+#: model:ir.model,name:students.model_students_training
+msgid "Training table"
+msgstr "Tableau diplôme"
